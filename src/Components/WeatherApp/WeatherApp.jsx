@@ -58,6 +58,7 @@ const WeatherApp = () => {
         <input type="text" className="cityInput" placeholder="search" />
         <div className="search-icon">
           <img
+            alt=""
             src={search_icon}
             onClick={() => {
               search();
@@ -72,14 +73,14 @@ const WeatherApp = () => {
       <div className="weather-location">London</div>
       <div className="data-container">
         <div className="element">
-          <img src={humidity_icon} className="icon" />
+          <img alt="" src={humidity_icon} className="icon" />
           <div className="data">
             <div className="humidity-percentage">64%</div>
             <div className="text">Humidity</div>
           </div>
         </div>
         <div className="element">
-          <img src={wind_icon} className="icon" />
+          <img alt="" src={wind_icon} className="icon" />
           <div className="data">
             <div className="wind-speed">18 km/hr</div>
             <div className="text">Wind Speed</div>
