@@ -52,8 +52,14 @@ const WeatherApp = () => {
       setWicon(clear_icon);
     }
   };
+
   return (
     <div className="container">
+      <div className="header-banner">
+        <h1 className="app-name">
+          Sky<span>Scape</span>
+        </h1>
+      </div>
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="search" />
         <div className="search-icon">
