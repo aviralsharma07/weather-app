@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# SkyScape - Real-time Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Link:** [View Live Demo](https://skyscape-avi.netlify.app/)
+SkyScape is a real-time weather application built with React.js that provides users with accurate and up-to-date weather information. With a user-friendly interface and responsive design, SkyScape ensures seamless access to weather data across various devices.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-time Weather Data:** Fetches and displays real-time weather information using React and the OpenWeather API.
+- **Responsive Design:** Ensures optimal user experience across all devices with flexible layouts, media queries, and viewport optimization.
 
-### `npm start`
+- **Comprehensive Weather Information:** Integrates external weather APIs to retrieve accurate data for temperature, humidity, and wind speed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Customizable Settings:** Allows users to customize preferences and settings for a personalized weather experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![Screenshot 1](screenshots/screenshot1.png)
+_(Add relevant screenshots of the application here)_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run SkyScape locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/your-username/skyscape.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```
+cd skyscape
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+5. Open the browser and visit `http://localhost:3000` to view the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React.js:** JavaScript library for building user interfaces.
+- **OpenWeather API:** External weather API for fetching real-time weather data.
+- **HTML/CSS:** Front-end technologies for designing and styling the application.
+- **JavaScript (ES6):** Programming language for implementing application logic and functionality.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Enter your location or city name in the search bar to retrieve weather information for that location.
+2. Explore different weather parameters such as temperature, humidity, and wind speed.
