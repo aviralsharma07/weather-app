@@ -1,6 +1,7 @@
 # SkyScape - Real-time Weather Application
 
 **Live Link:** [View Live Demo](https://skyscape-avi.netlify.app/)
+
 SkyScape is a real-time weather application built with React.js that provides users with accurate and up-to-date weather information. With a user-friendly interface and responsive design, SkyScape ensures seamless access to weather data across various devices.
 
 ## Features
